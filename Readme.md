@@ -209,7 +209,7 @@ interpretación.
 
 ```bash
 git clone https://github.com/bambamrg/clasificacion-biomecanica-ml.git
-cd biomechanical-classification-ml
+cd clasificacion-biomecanica-ml
 ```
 
 ### 2. Crear un entorno virtual
