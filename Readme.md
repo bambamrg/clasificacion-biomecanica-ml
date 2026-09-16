@@ -203,6 +203,61 @@ interpretación.
   anidada o un conjunto de prueba completamente independiente.
 - Los modelos no deben interpretarse como herramientas de diagnóstico clínico.
 
+## Instalación
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/bambamrg/clasificacion-biomecanica-ml.git
+cd biomechanical-classification-ml
+```
+
+### 2. Crear un entorno virtual
+
+En Windows:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3. Instalar las dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Descargar el dataset
+
+Descargá el dataset desde:
+
+[Biomechanical Features of Orthopedic Patients - Kaggle](https://www.kaggle.com/datasets/uciml/biomechanical-features-of-orthopedic-patients)
+
+Colocá el archivo CSV dentro de:
+
+```text
+data/
+```
+
+La estructura esperada será:
+
+```text
+data/
+├── README.md
+└── column_2C_weka.csv
+```
+
+El archivo CSV no se incluye en el repositorio y debe descargarse directamente
+desde Kaggle.
+
+### 5. Ejecutar el notebook
+
+Abrí el proyecto en VS Code y ejecutá:
+
+```text
+notebooks/01_biomechanical_classification_modeling.ipynb
+```
+
 ## Tecnologías utilizadas
 
 - Python.
