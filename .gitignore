@@ -1,0 +1,58 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuciones y paquetes
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Archivos de configuración local
+.env
+.env.*
+*.local
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+~*
+
+# Archivos de Excel temporales
+~$*.xlsx
+~$*.xls
+
+# Datos locales sensibles
+data/private/
+data/raw_private/
+
+# Modelos entrenados localmente
+models/
+*.pkl
+*.joblib
+
+# Salidas generadas localmente
+outputs/
